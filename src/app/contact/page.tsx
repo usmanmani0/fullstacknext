@@ -10,7 +10,7 @@ const Contact = () => {
                 <h1>Contact Us</h1>
                 <ContactCard />
                 <section className={styles.contact_section}>
-                    <h2>{"We\'d love to hear"}
+                    <h2>We love to hear
                         <span> from you </span>
                     </h2>
                     <ContactForm />
@@ -21,8 +21,8 @@ const Contact = () => {
                 width={100} height={450} style={{ border: 0 }}
                 allowFullScreen={false}
                 loading="lazy" className={styles.mapping}
-                referrerPolicy="no-referrer-when-downgrade"></iframe>
-
+                referrerPolicy="no-referrer-when-downgrade">
+            </iframe>
         </>
     );
 };
