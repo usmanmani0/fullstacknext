@@ -1,9 +1,5 @@
 import mongoose from "mongoose"
 
-
-console.log('process.env.MONGODB_URL', process.env.MONGODB_URL);
-
-
 const MONGODB_URL = process.env.MONGODB_URL;
 
 if (!MONGODB_URL) {
